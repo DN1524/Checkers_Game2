@@ -20,3 +20,8 @@ Rules:
 How to Play:
 
 Download all project files then simply run the index.html file with the web browser of your choice.
+
+
+Background Photo:
+Photo by Michal: https://unsplash.com/photos/green-grass-field-with-green-trees-under-blue-sky-during-daytime-iRd4U23CQAY
+      
