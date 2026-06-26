@@ -1,0 +1,125 @@
+body {
+  /* background-color: darkgrey; */
+  /* Photo by <a href="https://unsplash.com/@michael75?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Michael</a> on <a href="https://unsplash.com/photos/green-grass-field-with-green-trees-under-blue-sky-during-daytime-iRd4U23CQAY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+  background-image: url('./images/park.jpg');
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+}
+
+.game-view{
+  /* border: red 2px dotted; */
+  width: 50%;
+  margin: auto;
+  background-color: #80808050;
+}
+
+.board-container {
+  margin: auto;
+  border: solid rgb(90, 88, 86) 12px;
+}
+
+.turn-ui {
+  /* background-color: rgba(160, 160, 160, 0.829); */
+  /* border: solid orange 2px; */
+  display: flex;
+  gap: 10em;
+  width: 87%;
+  margin: auto;
+  justify-content: center;
+  color: grey;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+td {
+  width: 95px;
+  height: 95px;
+  /*border: solid 2px red;*/
+}
+
+img {
+  width: 90px;
+  height: 90px;
+  cursor: pointer;
+}
+
+tr td {
+  background-color: #fff;
+  border: 3px black solid;
+  /* background-color: black; */
+}
+
+.box {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+tr:nth-child(even) td:nth-child(odd), 
+tr:nth-child(odd) td:nth-child(even) {
+  background-color: #808080FF;
+  /* background-color: red; */
+}
+
+.moveSqure {
+  background-color: lightgreen;
+}
+
+.curr_checker {
+  animation: selected_box 1s infinite;
+}
+
+@keyframes selected_box {
+  50% { background-color: #2591D9FF; }
+  51% { background-color: #2591D9FF; }
+  100% { background-color: #808080FF; }
+}
+
+.jumpable-checker  {
+  animation: jump 1s infinite;
+  /* background-image: url("../images/PlaceHolder.png"); */
+  /* background-position: center; */
+  /* background-size: 80px 80px; */
+  cursor: pointer;
+}
+
+@keyframes jump {
+  50% { background-color: #F20C0FFF; }
+  51% { background-color: #F20C0FFF; }
+  100% { background-color: #808080FF; }
+}
+
+.available_move {
+  animation: move_box 1s infinite;
+  cursor: pointer;
+}
+
+.available_jump {
+  animation: jump_box 1s infinite;
+  cursor: pointer;
+}
+
+.focus_border {
+  border: 5px solid green;
+  border-radius: 5px;
+  background-color: #FFFFFF60;
+}
+
+@keyframes move_box {
+  50% { background-color: rgb(87, 206, 97); }
+  51% { background-color: rgb(87, 206, 97); }
+  100% { background-color: #808080FF; }
+}
+
+
+@keyframes jump_box {
+  50% { background-color: rgb(192, 46, 10); }
+  51% { background-color: rgb(192, 46, 10); }
+  100% { background-color: #808080FF; }
+}
