@@ -5,6 +5,8 @@ This game is made with vanilla JavaScript. Each checker and checker cell are DOM
 At the moment, there is no AI players or online functionality.
 
 Rules:
+- Non-king black checkers can only move on grey squares going up
+- Non-king red checkers can only move on grey squares going down
 - Elminate each opposing checker
 - Each piece that reaches the opposite end of the board becomes a king, allowing them to move both up and down.
 - When a jump is availble, the game does not force the player to make the jump unless...
