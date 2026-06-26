@@ -11,7 +11,7 @@ Rules:
 - Each piece that reaches the opposite end of the board becomes a king, allowing them to move both up and down.
 - When a jump is availble, the game does not force the player to make the jump unless...
   - When a player makes a jump and a multi-jump is available, the player must go through the entire multi-jump to end their turn.
-- There are three colored pulsing hightlights the indicate the following:
+- There are three colored pulsing hightlights that indicate the following:
   - Red: Possible jump against an opposing checker
   - Green: Possible move to an empty sqaure
   - Blue: Show which checker the current player has selected
