@@ -13,3 +13,8 @@ Rules:
   - Red: Possible jump against an opposing checker
   - Green: Possible move to an empty sqaure
   - Blue: Show which checker the current player has selected
+
+
+How to Play:
+
+Download all project files then simply run the index.html file with the web browser of your choice.
